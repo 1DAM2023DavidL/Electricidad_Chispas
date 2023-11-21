@@ -1,25 +1,14 @@
-public class Productos {
-    private String codigoProductos;
-    private String nombre;
+public class Productos extends Trabajo{
+    private String codigoProducto;
     private String marca;
     private String modelo;
-    private String precio;
-    private String tipoIva;
 
-    public String getCodigoProductos() {
-        return codigoProductos;
+    public String getCodigoProducto() {
+        return codigoProducto;
     }
 
-    public void setCodigoProductos(String codigoProductos) {
-        this.codigoProductos = codigoProductos;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setCodigoProducto(String codigoProducto) {
+        this.codigoProducto = codigoProducto;
     }
 
     public String getMarca() {
@@ -36,21 +25,5 @@ public class Productos {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
-    }
-
-    public String getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(String precio) {
-        this.precio = precio;
-    }
-
-    public String getTipoIva() {
-        return tipoIva;
-    }
-
-    public void setTipoIva(String tipoIva) {
-        this.tipoIva = tipoIva;
     }
 }
