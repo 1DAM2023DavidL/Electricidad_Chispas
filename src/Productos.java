@@ -3,6 +3,12 @@ public class Productos extends Trabajo{
     private String marca;
     private String modelo;
 
+    public Productos(String codigoTrabajo, String nombre, String precio, String tipoIva, String tipoTrabajo, String codigoProducto, String marca, String modelo) {
+        super (codigoTrabajo,nombre,precio,tipoIva,tipoTrabajo);
+        this.modelo=modelo;
+        this.marca=marca;
+        this.codigoProducto=codigoProducto;
+    }
     public String getCodigoProducto() {
         return codigoProducto;
     }

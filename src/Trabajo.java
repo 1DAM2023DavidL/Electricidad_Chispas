@@ -5,6 +5,13 @@ public class Trabajo {
     private String tipoIva;
     private String tipoTrabajo;
 
+    public Trabajo (String codigoTrabajo, String nombre, String precio, String tipoIva, String tipoTrabajo) {
+        this.codigoTrabajo=codigoTrabajo;
+        this.nombre=nombre;
+        this.precio=precio;
+        this.tipoIva=tipoIva;
+        this.tipoTrabajo=tipoTrabajo;
+    }
     public String getCodigoTrabajo() {
         return codigoTrabajo;
     }
